@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3937/3937040.png" type="image/x-icon">
+    <link rel="Stylesheet" href="/css/style.css">
+    <title>Trabajo Final CV</title>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor" id="__encabezado">
+            <div class="marco" id="__marco">
+                <img src="https://www.blogdelfotografo.com/wp-content/uploads/2022/01/retrato-anillo-luz.webp" alt="foto-perfil" id="__perfil">
+            </div>
+            <ul>
+                <h1>Mario Candia</h1>
+                <h2>Desarrollador web</h2>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Datos personales
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"> 
+                    <ul>
+                        <li> Nombre: Mario</li>
+                        <li> Apellido:Candia</li>
+                        <li>DNI:50.400.327</li> 
+                        <li>Localidad:Federal</li> 
+                        <li>Domicilio:Calle Siempre Viva 1855</li> 
+                        <li>Fecha de nacimiento: 05/9/1991</li> 
+                        <li>Edad: 30</li> 
+                </ul> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Formación academica
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                        <ul>
+                        <li>Estudios secundario completo:Instituto privado divina providencia</li>
+                        <li>Estudios universitario completo: UTN- lic. en programacion</li>
+                        </ul>
+                    </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                 Experiencia laboral
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul>
+                        <li> Asistente en empresa ENERSA</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </main>
+
+   <div class="container-footer">
+    <footer>
+      <div class="logo-footer">
+        <img src="/img/mc.png" alt="logo-mc">
+      </div>
+
+      <div class="redes-sociales">
+        <a href="#"><i class="fa-brands fa-square-facebook icon-redes-footer"></i></a>
+        <a href="#"><i class="fa-solid fa-envelope icon-redes-footer"></i> </a>
+        <a href="#"><i class="fa-brands fa-instagram icon-redes-footer"></i></p>
+        </a>
+        
+       </div>
+    </footer>
+    <hr>
+    <p>Trabajo final Front-End |Argentina Programa4.0|HTML-CSS-JS|Estudiante-Ariel,Perez|</p>
+
+   </div>
+
+   
+   <button type="button" id="print"> Imprimir</button>
+
+   <script src="/java/funciones.js"></script>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+   integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+</script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</body>
+</html>
